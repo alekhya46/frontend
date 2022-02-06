@@ -1,0 +1,4 @@
+p{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}

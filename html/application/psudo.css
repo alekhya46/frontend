@@ -1,0 +1,22 @@
+a{
+ text-decoration: none;
+}
+#sample:hover{
+color :tomato;
+ text-decoration: underline;
+}
+img{
+    width:150px;
+    height:150px;
+}
+img:hover{
+    width:200px;
+    height:200px;
+}
+p::first-line{
+    color: yellowgreen;
+}
+p::after{
+    content:"hi hello";
+}
+

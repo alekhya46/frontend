@@ -1,0 +1,21 @@
+.flex-container{
+    display:flex;
+    background-color: yellow;
+    flex-wrap: wrap;
+}
+.flexitem{
+    width: 200px;
+    margin: 10px;
+
+    background-color: gray;
+}
+.flex-item1{
+    min-height: 100px;
+
+}
+.flex-item2{
+    min-height: 200px;
+}
+.flex-item3{
+    min-height: 300px;
+}

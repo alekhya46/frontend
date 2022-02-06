@@ -1,0 +1,18 @@
+div{
+    background-color: aqua;
+}
+#image1{
+ border:10px solid green;
+ margin: 20px; 
+   background-color: aqua; 
+   padding: 10px;
+ display:block;
+ box-shadow: 10px 10px grey;
+}
+ /* display :we use to make inline to block elements and viceverse
+ */
+#image2{
+    border:5px solid orange;
+    margin: 10px;
+    padding: 10px;
+}

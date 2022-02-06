@@ -1,0 +1,9 @@
+p{
+    display: inline;
+    /* display: inline id for changing the block to inline viceversa */
+}
+h1{
+     display:inline;
+    display:none;
+    /* display: none is for hiding the line ; */
+}

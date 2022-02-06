@@ -1,0 +1,18 @@
+.parent{
+    background-color: rgb(150, 150, 165);
+    height: 200vh;
+     /* position: absolute;  */
+}
+.child1{
+    background-color: coral;
+    position: absolute;
+    left:30px;
+    top: 20px;
+    position:sticky;
+}
+.div2{
+    background-color:yellow;
+}
+.div3{
+    background-color: darkmagenta;
+}
