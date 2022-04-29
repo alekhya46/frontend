@@ -1,0 +1,18 @@
+div {
+  outline: none;
+}
+
+::ng-deep {
+  .cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
+    opacity: 1;
+    background: #00000024;
+  }
+  ::selection {
+    background-color: #93adf7 !important;
+    // color: white;
+    user-select: none;
+  }
+  .mat-checkbox-layout .mat-checkbox-label { 
+    color: #2f2f2f; 
+  }
+}
