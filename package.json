@@ -1,0 +1,151 @@
+{
+  "name": "ExzaConcert",
+  "version": "2.3.0",
+  "main": "app.js",
+  "author": "Exzatech Consulting & Services Pvt Ltd",
+  "homepage": "https://exzatechconsulting.com/",
+  "description": "A new-age Content Collaboration Workspace",
+  "license": "CC0-1.0",
+  "keywords": [
+    "Exzatech",
+    "Concert",
+    "Desktop",
+    "Application",
+    "Workspace",
+    "Control"
+  ],
+  "scripts": {
+    "ng": "ng",
+    "start": "electron-forge start",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "run:dev": "ng b --base-href /newapp",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular-material-extensions/password-strength": "^8.2.1",
+    "@angular/animations": "^12.2.0",
+    "@angular/cdk": "^11.2.13",
+    "@angular/common": "~11.2.0",
+    "@angular/core": "~11.2.0",
+    "@angular/forms": "~11.2.0",
+    "@angular/material": "^11.2.12",
+    "@angular/platform-browser": "~11.2.0",
+    "@angular/platform-browser-dynamic": "~11.2.0",
+    "@angular/router": "~11.2.0",
+    "@capacitor/core": "2.4.7",
+    "@fullcalendar/angular": "^5.7.1",
+    "@fullcalendar/daygrid": "^5.7.2",
+    "@fullcalendar/interaction": "^5.7.2",
+    "@ionic/angular": "^5.5.2",
+    "@taiga-ui/addon-doc": "^2.36.0",
+    "@taiga-ui/addon-preview": "^2.36.0",
+    "@taiga-ui/cdk": "^2.36.0",
+    "@taiga-ui/core": "^2.36.0",
+    "@taiga-ui/icons": "^2.36.0",
+    "@taiga-ui/kit": "^2.36.0",
+    "@types/intro.js": "^3.0.1",
+    "angular-highcharts": "^12.0.0",
+    "angular-user-idle": "^2.2.6",
+    "animate.css": "^4.1.1",
+    "chart.js": "^3.5.1",
+    "electron-installer-debian": "^3.1.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "file-saver": "^2.0.5",
+    "highcharts": "^9.2.2",
+    "intro.js": "^3.4.0",
+    "moment": "^2.29.1",
+    "ng-image-fullscreen-view": "^2.0.0",
+    "ng-multiselect-dropdown": "^0.3.4",
+    "ng2-charts": "^2.4.3",
+    "ngx-acuw": "^1.4.1",
+    "ngx-extended-pdf-viewer": "^9.0.1",
+    "ngx-file-drop": "^11.2.0",
+    "ngx-infinite-scroll": "^10.0.1",
+    "ngx-pipes": "^2.7.5",
+    "ngx-quicklink": "^0.2.7",
+    "ngx-spinner": "^11.0.1",
+    "ngx-toastr": "^14.0.0",
+    "ngx-ui-loader": "^11.0.0",
+    "node-forge": "^0.10.0",
+    "rxjs": "~6.6.0",
+    "sweetalert2": "^11.0.8",
+    "three": "^0.128.0",
+    "tslib": "^2.0.0",
+    "tus-js-client": "^2.3.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1102.4",
+    "@angular-eslint/builder": "2.0.2",
+    "@angular-eslint/eslint-plugin": "2.0.2",
+    "@angular-eslint/eslint-plugin-template": "2.0.2",
+    "@angular-eslint/template-parser": "2.0.2",
+    "@angular/cli": "~11.2.4",
+    "@angular/compiler": "~11.2.0",
+    "@angular/compiler-cli": "~11.2.0",
+    "@angular/language-service": "~11.2.0",
+    "@capacitor/cli": "2.4.7",
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "@electron-forge/maker-deb": "^6.0.0-beta.63",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.33",
+    "@electron-forge/maker-zip": "^6.0.0-beta.63",
+    "@ionic/angular-toolkit": "^3.1.1",
+    "@types/jasmine": "~3.6.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "4.16.1",
+    "@typescript-eslint/parser": "4.16.1",
+    "electron": "^18.0.3",
+    "eslint": "^7.6.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsdoc": "30.7.6",
+    "eslint-plugin-prefer-arrow": "1.2.2",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "^6.3.2",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-coverage-istanbul-reporter": "~3.0.2",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "protractor": "~7.0.0",
+    "ts-node": "~8.3.0",
+    "typescript": "~4.0.2"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "ExzaConcert"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {
+            "options": {
+              "icon": "./src/icon.ico"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
