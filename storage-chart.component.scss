@@ -1,0 +1,95 @@
+@import '../../../../appVariable.scss';
+
+.card-body {
+    margin-right: 1rem;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#chart{
+    width:400px ;
+    height:400px;
+}
+
+._TitleUnderLine{
+    border-bottom: 2px solid rgb(126, 144, 230);
+    width: 60px;
+    margin-bottom: 1rem;
+}
+
+
+._storage{
+    display: block;
+    text-align: center;
+}
+._storage{
+    display: inline-block;
+    border: 1px solid green;
+    width: 10px;
+    height: 10px;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+._totalSpace{
+    margin-top: 2rem;
+    background: greenyellow;
+}
+
+._freeSpace{
+    background: #5400b8;
+}
+._usedSpace{
+    background: #fa4b53;
+}
+
+.is-widget {
+    margin-top: -0.3rem;
+    margin-bottom: 2.5rem;
+    .is-circle {
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 50%;
+        margin: 0px;
+    }
+    .mat-icon {
+        background-repeat: no-repeat;
+        display: inline-block;
+        fill: currentColor;
+        height: 20px;
+        width: 20px;
+    }
+    .material-icons-outlined {
+        font-size: 20px;
+    }
+}
+
+._countTitle{
+    color: #969494;
+    font-size: 1rem;
+}
+._countSub{
+    font-size: 0.9rem;
+}
+
+@-moz-document url-prefix() {
+    ._subText{
+        text-align: left;
+        margin-left: 0.3rem !important;
+    }
+    ._subQuotaText{
+        text-align: left;
+        margin-left:0.5rem !important;
+    }
+}
